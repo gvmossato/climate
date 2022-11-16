@@ -6,7 +6,7 @@ Projeto desenvolvido para a disciplina **PTC3567 — Ciência dos Dados em Autom
 
 A realização desse projeto foi possível por meio do trabalho de:
 
-* [Gabriel Trellesse]()
+* Gabriel Trellesse
 * [Gabriel Mossato](https://github.com/gvmossato)
 * [Juliana Kodono](https://github.com/julianakodono)
 
@@ -41,4 +41,4 @@ No diretório `integrate` existem os notebooks utilizados para fazer a integraç
 2. O *parsing* das tabelas para adequação de suas colunas entre cada fonte; 
 3. A junção de fato das tabelas.
 
-Já `analisys` apresenta o processo de análise desses dados previamente tratados e integrados.
+Além disso, os dados de entrada são sempre colocados nas pastas `data` e, quando existem, os dados de saída são salvos em `out`. Finalmente, `analisys` apresenta o processo de análise desses dados previamente tratados e integrados.
