@@ -42,3 +42,39 @@ No diretório `integrate` existem os notebooks utilizados para fazer a integraç
 3. A junção de fato das tabelas.
 
 Além disso, os dados de entrada são sempre colocados nas pastas `data` e, quando existem, os dados de saída são salvos em `out`. Finalmente, `analisys` apresenta o processo de análise desses dados previamente tratados e integrados.
+
+# 📦 Dependências
+
+O detalhamento das dependências encontra-se em [`requirements.txt`](https://github.com/gvmossato/climate/blob/main/requirements.txt), sendo as principais:
+
+* [IPython](https://ipython.org/)
+* [PySpark](https://spark.apache.org/docs/latest/api/python/)
+* [Xskipper](https://xskipper.io/1.3.0/)
+* [Pandas](https://pandas.pydata.org/)
+* [Xarray](https://docs.xarray.dev/en/stable/)
+
+# ⚙️ Instalação
+
+É necessário clonar o repositório:
+
+```
+git clone git@github.com:gvmossato/climate.git
+```
+
+*(Opcional)* Criar e ativar um ambiente virtual:
+
+```
+python -m venv env
+```
+
+```
+env/Scripts/activate
+```
+
+E instalar suas dependências:
+
+```
+pip install -r requirements.txt
+```
+
+Demais instruções estão listadas no notebook [`src/integrate/parse.ipynb`](https://github.com/gvmossato/climate/blob/main/src/integrate/parse.ipynb) e podem ser necessárias ou não de acordo com o que se prentende executar.
