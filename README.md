@@ -52,6 +52,7 @@ O detalhamento das dependências encontra-se em [`requirements.txt`](https://git
 * [Xskipper](https://xskipper.io/1.3.0/)
 * [Pandas](https://pandas.pydata.org/)
 * [Xarray](https://docs.xarray.dev/en/stable/)
+* [Plotly](https://plotly.com/python/)
 
 # ⚙️ Instalação
 
