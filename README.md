@@ -30,7 +30,7 @@ O repositório encontra-se organizado como abaixo:
 │   ├── 🐍 convert.ipynb
 │   ├── 🐍 parse.ipynb
 │   └── 🐍 integrate.ipynb
-└── 📁 analisys
+└── 📁 analysis
     ├── 📁 data
     └── 🐍 explore.ipynb
 ```
