@@ -38,3 +38,4 @@ tornado==6.2
 traitlets==5.5.0
 wcwidth==0.2.5
 xarray==2022.11.0
+plotly==5.11.0
